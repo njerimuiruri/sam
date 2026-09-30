@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Placeholder portrait of Sam">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2e9f4"/>
+      <stop offset="1" stop-color="#c4d2e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <g fill="#9ab2d6">
+    <circle cx="400" cy="380" r="150"/>
+    <path d="M400 560c-170 0-300 110-300 260v180h600V820c0-150-130-260-300-260z"/>
+  </g>
+  <g fill="#345187" font-family="Georgia, serif" text-anchor="middle">
+    <text x="400" y="930" font-size="34">Sam’s portrait goes here</text>
+    <text x="400" y="972" font-size="20" fill="#456aa3">Replace /public/portrait.svg with portrait.jpg</text>
+  </g>
+</svg>
