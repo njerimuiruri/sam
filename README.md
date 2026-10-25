@@ -20,8 +20,8 @@ npm run build && npm start
 
 **Almost everything lives in one file:** [`src/data/site.ts`](src/data/site.ts).
 Change the name, tagline, contact details, practice areas, testimonials, stats,
-and the map embed there. Text that currently reads "Lorem ipsum…" is placeholder
-copy to replace.
+and the map embed there. Use verified firm details and approved client
+testimonials; the testimonials section stays hidden until testimonials are added.
 
 ## Sam's photos
 

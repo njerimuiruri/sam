@@ -36,9 +36,9 @@ export default function Hero() {
         <div className="animate-fade-up">
           <span className="eyebrow">{site.firmName}</span>
 
-          <h1 className="mt-4 text-4xl font-semibold leading-[1.06] text-navy-900 sm:text-5xl lg:text-6xl">
+          {/* <h1 className="mt-4 text-4xl font-semibold leading-[1.06] text-navy-900 sm:text-5xl lg:text-6xl">
             {site.tagline}
-          </h1>
+          </h1> */}
 
           {/* short rule flourish */}
           <div className="mt-5 flex items-center gap-3">
@@ -59,9 +59,9 @@ export default function Hero() {
             </a>
           </div>
 
-          <p className="mt-6 text-sm font-medium text-navy-500">
+          {/* <p className="mt-6 text-sm font-medium text-navy-500">
             {site.credentials}
-          </p>
+          </p> */}
         </div>
 
         {/* Right: portrait */}
@@ -78,14 +78,14 @@ export default function Hero() {
             <div className="absolute -bottom-5 -right-5 h-16 w-16 rounded-br-2xl border-b-2 border-r-2 border-accent" />
 
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-navy-100 shadow-2xl shadow-navy-900/10">
-              {/* <Image
-                src="/portrait.svg"
+              <Image
+                src="/img/sam.jpeg"
                 alt={`Portrait of ${site.attorneyName}`}
                 fill
                 priority
                 sizes="(max-width: 1024px) 20rem, 30rem"
                 className="object-cover"
-              /> */}
+              />
               {/* subtle navy gradient at the base */}
               <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-navy-900/30 to-transparent" />
             </div>
@@ -96,7 +96,7 @@ export default function Hero() {
                 {site.attorneyName}
               </p>
               <p className="text-xs font-medium uppercase tracking-wider text-accent">
-                Principal Advocate
+             {site.credentials}
               </p>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function Hero() {
       </div>
 
       {/* ── Stats strip ────────────────────────────────── */}
-      <div className="container-x relative pb-12">
+      {/* <div className="container-x relative pb-12">
         <div className="grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-navy-100 bg-navy-100 sm:grid-cols-4">
           {site.stats.map((s) => (
             <div key={s.label} className="bg-white px-6 py-6 text-center">
@@ -117,7 +117,7 @@ export default function Hero() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

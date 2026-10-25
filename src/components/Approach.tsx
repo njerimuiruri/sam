@@ -9,7 +9,6 @@ export default function Approach() {
       id="approach"
       className="relative scroll-mt-24 overflow-hidden bg-navy-900 py-16 text-white lg:py-20"
     >
-      {/* faint line-art watermarks */}
       <ScalesArt className="pointer-events-none absolute -left-16 bottom-0 h-72 w-auto text-white/[0.06]" />
       <ScalesArt className="pointer-events-none absolute -right-20 -top-10 h-80 w-auto text-white/[0.04]" />
 

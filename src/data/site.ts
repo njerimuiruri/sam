@@ -2,22 +2,21 @@
  * ─────────────────────────────────────────────────────────────
  *  SITE CONTENT
  *  This is the ONE file to edit when the real details are known.
- *  Text marked "Lorem ipsum" is placeholder copy; replace it.
+ *  Update this file when firm details or approved copy changes.
  * ─────────────────────────────────────────────────────────────
  */
 
 export const site = {
   /** Attorney / firm identity */
-  attorneyName: "Sam Njuguna",
-  firmName: "Sam & Associates",
+  attorneyName: "Samuel Njuguna Njenga",
+  firmName: "Njuguna  Njenga & Associates",
   monogram: "S",
-  tagline: "Considered counsel. Decisive representation.",
+  // tagline: "Counsel & Advocacy",
   heroIntro:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-
+"Committed to delivering thoughtful legal counsel, trusted representation and practical solutions tailored to our clients’ needs. Guided by integrity, professionalism and respect for the law, we strive to protect our clients’ interests, uphold justice and build lasting relationships founded on trust and excellence",
   /** Short credential line under the name */
   credentials:
-    "Advocate of the High Court · LL.B, LL.M · Commercial & Civil Practice",
+    "Advocate of the High Court · LL.B, PGDL",
 
   /** Single-sentence guiding principle, shown in the quote band */
   principle:
@@ -26,24 +25,17 @@ export const site = {
   /** Contact details */
   contact: {
     phone: "+254 743 604821",
-    email: "sam@example.com",
-    addressLines: [
-      "Lorem Ipsum Chambers, 4th Floor",
-      "123 Placeholder Avenue",
-      "Nairobi, Kenya",
-    ],
+    email: "snnjenga316@gmail.com",
+    addressLines: ["Nairobi, Kenya"],
     hours: "Monday to Friday · 8:30 am to 5:30 pm",
-    // Replace with a real Google Maps embed URL for the office
-    mapEmbedSrc:
-      "https://www.openstreetmap.org/export/embed.html?bbox=-0.13%2C51.50%2C-0.11%2C51.51&layer=mapnik",
-  },
+    mapEmbedSrc:""
+  
+    },
 
-  /** Navigation; anchors match the section ids in page.tsx */
   nav: [
     { label: "About", href: "#about" },
     { label: "Practice Areas", href: "#practice" },
     { label: "Approach", href: "#approach" },
-    { label: "Testimonials", href: "#testimonials" },
     { label: "Contact", href: "#contact" },
   ],
 
@@ -59,29 +51,21 @@ export const site = {
   about: {
     heading: "About Sam",
     body: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Samuel Njuguna Njenga is an Advocate of the High Court with an LL.B and PGDL. His practice covers commercial, property, family, civil dispute, and succession matters.",
+      "His approach is grounded in careful listening, clear advice, and diligent attention to each matter. Clients are guided through their options and kept informed as their matter progresses.",
     ],
     facts: [
-      { label: "Admitted", value: "Lorem Bar Association, 2023" },
-      {
-        label: "Education",
-        value: "LL.B (Hons), LL.M, Placeholder University",
-      },
-      { label: "Languages", value: "English, Lorem, Ipsum" },
-      {
-        label: "Memberships",
-        value: "Law Society; Chartered Institute of Arbitrators",
-      },
+      { label: "Admission", value: "Advocate of the High Court" },
+      { label: "Qualifications", value: "LL.B, PGDL" },
     ],
   },
 
-  /** Practice areas: general placeholder set; edit freely */
+  /** Practice areas */
   practiceAreas: [
     {
       title: "Corporate & Commercial Law",
       blurb:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        "Practical legal support for businesses, from company governance and compliance to commercial transactions.",
       points: [
         "Company formation & governance",
         "Shareholder agreements",
@@ -92,7 +76,7 @@ export const site = {
     {
       title: "Contracts & Drafting",
       blurb:
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+        "Careful drafting, review, and negotiation to help make contractual rights and obligations clear.",
       points: [
         "Commercial contracts",
         "Employment agreements",
@@ -103,7 +87,7 @@ export const site = {
     {
       title: "Real Estate & Property",
       blurb:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+        "Guidance on property transactions, leases, due diligence, and land-related disputes.",
       points: [
         "Sale & purchase agreements",
         "Leases & tenancies",
@@ -114,7 +98,7 @@ export const site = {
     {
       title: "Family Law",
       blurb:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.",
+        "Thoughtful advice on family matters, with a focus on practical solutions and your family's needs.",
       points: [
         "Divorce & separation",
         "Child custody & support",
@@ -125,7 +109,7 @@ export const site = {
     {
       title: "Civil Litigation & Dispute Resolution",
       blurb:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "Representation in civil and commercial disputes, with advice on litigation and alternative resolution.",
       points: [
         "Commercial disputes",
         "Debt recovery",
@@ -136,7 +120,7 @@ export const site = {
     {
       title: "Estate Planning & Succession",
       blurb:
-        "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur.",
+        "Support with wills, probate, estate administration, and planning for the transfer of assets.",
       points: [
         "Wills & trusts",
         "Probate & administration",
@@ -150,48 +134,29 @@ export const site = {
   approach: {
     heading: "How we work",
     intro:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "We take time to understand your priorities, give clear advice, and guide you through each stage with a focused plan.",
     steps: [
       {
         title: "Consultation",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. We listen first and map the full picture.",
+        text: "We listen carefully, understand your priorities, and clarify the legal issues before recommending next steps.",
       },
       {
         title: "Strategy",
-        text: "Ut enim ad minim veniam, quis nostrud exercitation. A clear plan with defined outcomes and costs.",
+        text: "We assess your options and develop a practical plan, with clear advice on risks, timing, and costs.",
       },
       {
         title: "Representation",
-        text: "Duis aute irure dolor in reprehenderit. Diligent execution, kept simple and communicated plainly.",
+        text: "We act on your behalf with diligence, keep you informed, and pursue the agreed strategy.",
       },
       {
         title: "Resolution",
-        text: "Excepteur sint occaecat cupidatat non proident. We close matters cleanly and keep you informed throughout.",
+        text: "We work toward an effective outcome and explain what comes next, every step of the way.",
       },
     ],
   },
 
   /** Testimonials */
-  testimonials: [
-    {
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "A. Client",
-      detail: "Managing Director, Placeholder Ltd.",
-    },
-    {
-      quote:
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.",
-      name: "B. Client",
-      detail: "Private client",
-    },
-    {
-      quote:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.",
-      name: "C. Client",
-      detail: "Founder, Ipsum Holdings",
-    },
-  ],
+  testimonials: [] as { quote: string; name: string; detail: string }[],
 
   matterTypes: [
     "Corporate & Commercial",

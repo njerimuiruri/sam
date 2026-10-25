@@ -15,7 +15,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <About />
+        {/* <About /> */}
         <QuoteBand />
         <PracticeAreas />
         <Approach />

@@ -30,8 +30,8 @@ export default function PracticeAreas() {
             <span className="h-1.5 w-1.5 rotate-45 bg-gold/70" />
           </div>
           <p className="mt-4 text-lg leading-relaxed text-navy-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Clear legal guidance across business, property, family, dispute, and
+            succession matters.
           </p>
         </div>
 

@@ -31,18 +31,17 @@ export default function Contact() {
       <div className="container-x grid gap-12 lg:grid-cols-[1fr_1fr] lg:gap-16">
         {/* Left: details */}
         <div>
-          <span className="eyebrow">Contact</span>
           <h2 className="mt-4 text-3xl font-semibold text-navy-900 sm:text-4xl">
-            Request a consultation
+            Contact Us 
           </h2>
           <div className="mt-4 flex items-center gap-3">
             <span className="h-px w-12 bg-gold" />
             <span className="h-1.5 w-1.5 rotate-45 bg-gold/70" />
           </div>
-          <p className="mt-4 max-w-md text-lg leading-relaxed text-navy-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tell us
-            briefly about your matter and we will respond within one business day.
-          </p>
+          {/* <p className="mt-4 max-w-md text-lg leading-relaxed text-navy-600">
+            Tell us briefly about your legal matter and how we can help. We will
+            review your enquiry and get in touch to discuss the next steps.
+          </p> */}
 
           <dl className="mt-8 space-y-5">
             <div className="flex gap-4">

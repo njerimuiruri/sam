@@ -1,6 +1,8 @@
 import { site } from "@/data/site";
 
 export default function Testimonials() {
+  if (site.testimonials.length === 0) return null;
+
   return (
     <section id="testimonials" className="scroll-mt-24 bg-white py-16 lg:py-20">
       <div className="container-x">

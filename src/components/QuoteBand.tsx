@@ -20,9 +20,9 @@ export default function QuoteBand() {
         <p className="mt-2 max-w-3xl font-serif text-2xl font-medium leading-snug text-navy-50 sm:text-[1.75rem]">
           {site.principle}
         </p>
-        <p className="mt-5 text-xs font-semibold uppercase tracking-[0.25em] text-navy-300">
+        {/* <p className="mt-5 text-xs font-semibold uppercase tracking-[0.25em] text-navy-300">
           {site.attorneyName}
-        </p>
+        </p> */}
       </div>
     </section>
   );
