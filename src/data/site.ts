@@ -11,7 +11,7 @@ export const site = {
   attorneyName: "Samuel Njuguna Njenga",
   firmName: "Njuguna  Njenga & Associates",
   monogram: "S",
-  // tagline: "Counsel & Advocacy",
+  tagline: "Counsel & Advocacy",
   heroIntro:
 "Committed to delivering thoughtful legal counsel, trusted representation and practical solutions tailored to our clients’ needs. Guided by integrity, professionalism and respect for the law, we strive to protect our clients’ interests, uphold justice and build lasting relationships founded on trust and excellence",
   /** Short credential line under the name */
