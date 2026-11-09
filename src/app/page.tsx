@@ -16,9 +16,9 @@ export default function Home() {
       <main>
         <Hero />
         {/* <About /> */}
-        <QuoteBand />
+        {/* <QuoteBand /> */}
         <PracticeAreas />
-        <Approach />
+        {/* <Approach /> */}
         <Testimonials />
         <div className="bg-white py-10">
           <Divider />
